@@ -182,6 +182,18 @@
 		scroll-snap-stop: always;
 		overflow-x: auto;
 	}
+	.nav::-webkit-scrollbar {
+		width: 0.25em;
+		height: 0.25em;
+	}
+	.nav::-webkit-scrollbar-track {
+		background: transparent;
+	}
+	.nav::-webkit-scrollbar-thumb {
+		background-color: var(--back);
+		border-radius: 1em;
+		border: none;
+	}
 	.nav::before {
 		content: "";
 		position: absolute;
@@ -440,6 +452,7 @@
 		gap: 0.5em;
 		align-content: center;
 	}
+	
 	.features__item {
 		display: flex;
 		flex-direction: row;
@@ -828,6 +841,18 @@
 		width: 80%;
 		border-radius: 0.5em;
 		height: 100%;
+	}
+	.about__map::-webkit-scrollbar {
+		width: 0.25em;
+		height: 0.25em;
+	}
+	.about__map::-webkit-scrollbar-track {
+		background: transparent;
+	}
+	.about__map::-webkit-scrollbar-thumb {
+		background-color: var(--back);
+		border-radius: 1em;
+		border: none;
 	}
 	.about__layout {
 		margin: -2.5em 0 2.5em -5em;
