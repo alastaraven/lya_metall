@@ -301,7 +301,7 @@
 		height: -moz-fit-content;
 		height: fit-content;
 		border-radius: 0.5em;
-		background-image: url('/assets/images/banner@2x-min.jpg');
+		background-image: url('/lya_metall/assets/images/banner@2x-min.jpg');
 		background-position: center;
 		background-repeat: no-repeat;
 		background-size: cover;
@@ -821,7 +821,7 @@
 		justify-content: flex-end;
 	}
 	.about__map {
-		background: url('/assets/images/map@2x-min.jpg');
+		background: url('/lya_metall/assets/images/map@2x-min.jpg');
 		background-position: center;
 		background-repeat: no-repeat;
 		background-size: cover;
@@ -907,7 +907,7 @@
 		justify-content: center;
 		align-items: center;
 		padding: 2.5em;
-		background: url('/assets/images/back@2x-min.jpg');
+		background: url('/lya_metall/assets/images/back@2x-min.jpg');
 		background-position: center;
 		background-repeat: no-repeat;
 		background-size: cover;
