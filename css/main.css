@@ -340,6 +340,7 @@
 		position: relative;
 		flex: 40%;
 		display: flex;
+		flex-wrap: wrap;
 		flex-direction: column-reverse;
 		justify-content: flex-end;
 		gap: 0.5em;
@@ -401,6 +402,7 @@
 		}
 		.slider__controls {
 			padding: 0em;
+			flex-direction: row-reverse;
 		}
 		.banner {
 			padding: 2em;
